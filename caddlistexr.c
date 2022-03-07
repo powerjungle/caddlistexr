@@ -229,10 +229,12 @@ int main(int argc, char *argv[]) {
         print_linked_list(list_tail_num2, "%c", 'b');
         */
 
+	node_t* result;
+
         switch(command_char) {
                 case '+':
                         // Add the two inputs of the user together, the length doesn't matter.
-                        node_t* result = add_two_lists(list_tail_num1, list_tail_num2, '0');
+                        result = add_two_lists(list_tail_num1, list_tail_num2, '0');
                         // The result is printed in reverse, because when adding the lists,
                         // a new node gets added to the end of the list "result", so we
                         // have only the last node, but in this case it's not a problem.

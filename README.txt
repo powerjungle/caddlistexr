@@ -6,10 +6,10 @@ if somebody is looking for an example and a weird approach.
 
 It's not completely optimized, but it's enough as an example.
 
-To compile, you'll need gcc 11, probably will work with other versions,
-because the code doesn't do anything fancy.
+To compile, you'll need gcc or clang.
 
-Just run: make
+Just run (for gcc): make
+Or (for clang): make CLANG=true
 in the directory of the source code!
 
 You can use: make clean
